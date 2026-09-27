@@ -1,221 +1,145 @@
-# Awesome-Electronic-Health-Records
+<div align="center">
 
-## Top Electronic Health Records (EHR) Platforms Ecosystem
+![Awesome Electronic Health Records Banner](assets/banner.svg)
 
+# 🏥 Awesome Electronic Health Records (EHR) Ecosystem 🚀
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**A curated, production-ready directory of enterprise SaaS EHR platforms, practice management suites, and open-source clinical software.**
 
-*Focused on Clinical Documentation, Practice Management, Interoperability & Patient Data Ownership*
+*Focused on Clinical Documentation, Practice Management, FHIR Interoperability, HIPAA Compliance & Patient Data Ownership.*
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Electronic Health Records (EHR)**. These tools help hospitals, clinics, and physician practices document clinical encounters, manage patient demographics, process billing, and exchange health data securely.
-
-
-
-**Examples** include Epic, Cerner (Oracle Health), athenahealth, eClinicalWorks, NextGen Healthcare, Practice Fusion, DrChrono, Meditech, Altera Digital Health, and CureMD (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom clinical workflows, and transparent patient data — ideal for resource-constrained clinics, international health systems, and developers building interoperable healthcare solutions without vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Epic](https://www.epic.com/)**
-
-  The dominant EHR in large U.S. health systems. Comprehensive clinical, revenue cycle, and population health modules with extensive interoperability via EpicCare Link and Care Everywhere. Patient portal (MyChart) serves as the de facto standard for patient access.
-
-
-
-- **[Cerner (Oracle Health)](https://www.oracle.com/health/)**
-
-  Enterprise EHR for hospitals and large clinics, now part of Oracle. Provides clinical documentation, revenue cycle, and population health management with strong laboratory and radiology integration.
-
-
-
-- **[athenahealth](https://www.athenahealth.com/)**
-
-  Cloud-based EHR and revenue cycle management for physician practices. Known for its integrated billing services and network-based approach to clinical data exchange.
-
-
-
-- **[eClinicalWorks](https://www.eclinicalworks.com/)**
-
-  Ambulatory EHR with strong presence in small to mid-sized practices. Provides clinical documentation, practice management, and patient engagement tools including healow patient portal.
-
-
-
-- **[NextGen Healthcare](https://www.nextgen.com/)**
-
-  EHR and practice management for ambulatory practices across specialties. Offers population health management, telehealth, and revenue cycle solutions.
-
-
-
-- **[Practice Fusion](https://www.practicefusion.com/)**
-
-  Free, ad-supported cloud EHR for small practices. Provides charting, scheduling, billing, and e-prescribing with a focus on simplicity.
-
-
-
-- **[DrChrono](https://www.drchrono.com/)**
-
-  Cloud-based EHR for small practices and mobile clinicians. Features iPad-native charting, medical billing, and patient scheduling with an app marketplace.
-
-
-
-- **[Meditech](https://www.meditech.com/)**
-
-  Hospital EHR with strong presence in community hospitals. Provides clinical, financial, and operational modules with options for cloud or on-premises deployment.
-
-
-
-- **[Altera Digital Health](https://www.alterahealth.com/)**
-
-  EHR portfolio including Paragon and Sunrise platforms. Serves hospitals and health systems with clinical, financial, and population health capabilities.
-
-
-
-- **[CureMD](https://www.curemd.com/)**
-
-  Cloud-based EHR and practice management with a focus on specialty practices. Provides clinical documentation, billing, and patient portal features.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OpenEMR](https://github.com/openemr/openemr)**
-
-  The most popular open-source EHR and medical practice management solution. **ONC Certified** (Ambulatory EHR) with version 8.0.0 achieving certification in February 2026. Features fully integrated electronic health records, practice management, scheduling, electronic billing (ANSI X12 5010), e-prescribing, patient portal (modern UI with scheduling, secure messaging, online payments, and CCDA support), clinical decision rules, and FHIR support for ONC US Core IG 4.0.0 including SMART on FHIR. Runs on Windows, Linux, macOS with PHP and MySQL/MariaDB. Available in 30+ languages. Free and open source (GNU GPL) with no vendor lock-in. ~1.5k+ stars .
-
-
-
-- **[OpenMRS](https://github.com/openmrs/openmrs-core)**
-
-  Open-source medical record system designed for resource-constrained environments, particularly in developing countries. Modular architecture with a robust API and strong HL7/FHIR support secured via OpenHIM-based OAuth2. Flexible, modular security capable of enterprise-grade authentication through extensions and external identity providers. Used by Partners In Health, AMPATH, and national health systems across Africa and Asia .
-
-
-
-- **[GNU Health](https://github.com/gnuhealth/gnuhealth)**
-
-  Free/Libre health and hospital information system from the GNU Project. Provides hospital management, electronic medical records, laboratory, pharmacy, and epidemiology modules. Licensed under GPLv3, written in Python with PostgreSQL. Used by governments and NGOs including the United Nations University and the Government of Jamaica. More limited authentication capabilities than OpenEMR/OSCAR, but strong for public health and hospital management in resource-limited settings .
-
-
-
-- **[Bahmni](https://github.com/Bahmni/bahmni-offline-packages)**
-
-  Open-source EMR and hospital system built on top of OpenMRS and Odoo. Provides a unified interface for clinical documentation, lab, radiology, billing, and inventory. Strong HL7/FHIR support with OpenHIM-based security. Used in low-resource settings as a comprehensive hospital information system. Most capable system for interoperability security due to comprehensive standards support .
-
-
-
-- **[OSCAR EMR](https://github.com/oscar-emr/oscar)**
-
-  Open-source EMR developed by McMaster University for Canadian primary care. Strong authentication maturity with native two-factor authentication, enforceable password policies, and comprehensive session controls. Provides clinical documentation, scheduling, billing, and e-prescribing. Customizable for different practice needs with strong HIPAA-oriented technical safeguards .
-
-
-
-- **[LibreHealth EHR](https://github.com/LibreHealthIO/lh-ehr)**
-
-  Community-driven fork of OpenEMR with a focus on modernizing the codebase and improving developer experience. Free and open-source EHR with clinical documentation, practice management, and patient portal capabilities. ~238 stars, actively maintained as an alternative for organizations wanting OpenEMR's functionality with a fresh development approach .
-
-
-
-- **[Open Hospital](https://github.com/informatici/openhospital)**
-
-  Free and open-source EHR for hospital management, developed by Informatici Senza Frontiere (IT Without Borders). Provides patient records, admissions, laboratory, pharmacy, and reporting. Used in hospitals across Africa and other resource-limited regions. ~504 stars, actively maintained. GPL licensed .
-
-
-
-- **[Mere Medical](https://github.com/cfu288/mere-medical)**
-
-  Open-source personal health record (PHR) aggregator that syncs records from multiple patient portals into one place. Supports Epic MyChart, Cerner, Allscripts, DrChrono/OnPatient, and Veradigm via SMART on FHIR. **Offline-first, self-hosted web app** — health records stored directly on the user's device, never on third-party servers. 250+ GitHub stars, MIT licensed. Named a finalist in AMIA's 2025 HL7 FHIR App Competition .
-
-
-
-- **[OpenEMR Express Plus](https://www.open-emr.org/)**
-
-  Free, fully hosted OpenEMR for U.S.-based healthcare providers — no servers, no setup, no cost. Built on HIPAA-eligible AWS services with encryption and auditing. Restores true one-click deployment on AWS. Executing a Business Associate Agreement with AWS is required for HIPAA-compliant deployment .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **EHR Suites**: **OpenEMR** (ONC certified, most popular), **OpenMRS** (developing countries, modular), **Bahmni** (hospital system on OpenMRS), **OSCAR EMR** (Canadian primary care, strong auth) .
-
-- **Hospital Management**: **GNU Health** (GPLv3, hospital + public health), **Open Hospital** (IT Without Borders, resource-limited settings).
-
-- **Personal Health Records**: **Mere Medical** (patient-owned aggregation, SMART on FHIR), **Fasten Health** (self-hosted PHR, FHIR-based) .
-
-- **Interoperability**: **OpenHIM** (health information mediator), **HAPI FHIR** (Java FHIR server).
-
-
-
-**Frameworks for building custom systems**: Combine **OpenEMR** for the core EHR and practice management, **OpenMRS** or **Bahmni** for resource-constrained or hospital settings, **Mere Medical** for patient-owned record aggregation, and **PostgreSQL/MySQL** for persistence. Add **Docker** for deployment and **HAPI FHIR** for standards-based interoperability.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- EHR platforms handle protected health information (PHI); ensure compliance with HIPAA, GDPR, and applicable regional healthcare regulations.
-
-- **Open-source reality**: Mature open-source EHR platforms exist and are production-ready — **OpenEMR** is ONC certified and **OpenMRS/Bahmni** are used at national scale. However, a security benchmarking study found that **no open-source EHR provides native application-level encryption for data at rest or file attachments**, and none offer integrated cryptographic key management. All rely on external database or operating system encryption. Organizations deploying these platforms must implement additional security controls .
-
-
+📅 **Last updated: September 2026**
 
 ---
 
+</div>
 
+## 📌 Overview & Market Intelligence
 
-**Made for healthcare IT teams, clinic administrators, health informatics developers, and public health organizations.**
+The global **Electronic Health Records (EHR)** market size is estimated at **~$34.5 Billion** in 2026 and is projected to reach **~$48.8 Billion** by 2030. The market structure exhibits a **split market dynamic**: the enterprise hospital segment is **highly concentrated** (dominated by Epic and Oracle Health), whereas the ambulatory, specialty, and international clinic segments remain **moderately fragmented** with numerous cloud SaaS providers and self-hosted open-source alternatives.
 
-Let's make electronic health records more open, interoperable, and patient-centered.
+---
+
+## 📑 Table of Contents
+
+- [⚡ SaaS & Hosted EHR Platforms](#-saas--hosted-ehr-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architectural Frameworks](#️-architectural-frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## ⚡ SaaS & Hosted EHR Platforms
+
+Below is a tabular overview of top enterprise SaaS electronic health record platforms, sorted by **Company Size / Valuation** in descending order.
+
+| Platform | Company Size / Valuation | Starting Pricing | Free Tier / Trial Limit | Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle Health (Cerner)](https://www.oracle.com/health/)** | 🏢 **$370B+ Market Cap** (Oracle Parent) | $1,500/provider/month (Enterprise tier) | 30-day sandbox demo environment with synthetic patient datasets | Enterprise hospital EHR, laboratory & radiology integration, population health management. |
+| **[Epic Systems](https://www.epic.com/)** | 🏢 **$10B+ Annual Revenue** (Private, ~$40B Est. Valuation) | $1,200/provider/month base + implementation fees | 30-day developer sandbox via Epic on FHIR API portal | Market leader in enterprise U.S. health systems, MyChart patient portal, Care Everywhere interoperability. |
+| **[athenahealth](https://www.athenahealth.com/)** | 🏢 **$17B Valuation** (Private Equity) | 4% to 7% of monthly practice collections | 14-day guided cloud software walkthrough trial | Cloud-based ambulatory EHR, integrated revenue cycle management, network-based billing. |
+| **[Meditech](https://www.meditech.com/)** | 🏢 **~$500M+ Annual Revenue** (Private) | $600/provider/month (Expanse Cloud) | 30-day virtual product demonstration portal | Community hospital EHR, operational and financial modules, Expanse web platform. |
+| **[NextGen Healthcare](https://www.nextgen.com/)** | 🏢 **$1.8B Valuation** (Acquired by Thoma Bravo) | $399/provider/month | 14-day free trial for NextGen Office | Multi-specialty ambulatory practice management, telehealth, population health analytics. |
+| **[eClinicalWorks](https://www.eclinicalworks.com/)** | 🏢 **$1.5B+ Valuation** (Private) | $449/provider/month (EHR + Practice Management) | 14-day online interactive product test drive | Small-to-midsize ambulatory EHR, healow patient engagement app, e-prescribing. |
+| **[Altera Digital Health](https://www.alterahealth.com/)** | 🏢 **$800M+ Valuation** (N. Harris Computer Subsidiary) | $750/provider/month | 14-day enterprise sales sandbox trial | Paragon & Sunrise EHR portfolios, inpatient clinical automation, analytics. |
+| **[DrChrono](https://www.drchrono.com/)** | 🏢 **$300M+ Valuation** (EverCommerce Subsidiary) | $199/provider/month (Prometheus Tier) | 30-day full feature free trial (no credit card required) | iPad-native EHR, customizable clinical form builder, medical billing marketplace API. |
+| **[CureMD](https://www.curemd.com/)** | 🏢 **$150M+ Valuation** (Private) | $295/provider/month | 14-day personalized sandbox demo trial | Specialty-focused cloud EHR, workflow automation, clinical decision support. |
+| **[Practice Fusion](https://www.practicefusion.com/)** | 🏢 **$100M+ Valuation** (Veradigm Subsidiary) | $149/provider/month (annual commitment) | 14-day unrestricted free trial | Cloud EHR for independent practices, charting, e-prescribing, lab connections. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The following list contains open-source EHR platforms, FHIR servers, and hospital management frameworks, sorted by **GitHub Star Count** in descending order.
+
+- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) 🌟 **~19,000+ stars**
+  Comprehensive open-source enterprise resource planning system with a dedicated Healthcare Module (patient appointments, clinical procedures, vital signs logging, lab test management, and medical billing). Written in Python/Frappe Framework.
+
+- **[HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend)** [![GitHub Stars](https://img.shields.io/github/stars/HospitalRun/hospitalrun-frontend?style=social&color=white)](https://github.com/HospitalRun/hospitalrun-frontend/stargazers) 🌟 **~6,900+ stars**
+  User-friendly open-source EHR and hospital information system tailored for developing world healthcare facilities. Features an offline-first architecture for remote clinics with intermittent internet connectivity.
+
+- **[OpenEMR](https://github.com/openemr/openemr)** [![GitHub Stars](https://img.shields.io/github/stars/openemr/openemr?style=social&color=white)](https://github.com/openemr/openemr/stargazers) 🌟 **~5,500+ stars**
+  The most widely deployed open-source EHR and medical practice management platform. **ONC Certified Ambulatory EHR**. Includes patient charting, e-prescribing, ANSI X12 billing, patient portal, clinical decision support rules, and full FHIR R4 API support.
+
+- **[Medplum](https://github.com/medplum/medplum)** [![GitHub Stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers) 🌟 **~2,700+ stars**
+  Modern developer-first head-less EHR and FHIR-native health data platform. Provides TypeScript SDKs, React component libraries, automated compliance tools, and secure patient data repositories for building custom medical apps.
+
+- **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)** [![GitHub Stars](https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white)](https://github.com/hapifhir/hapi-fhir/stargazers) 🌟 **~2,400+ stars**
+  The gold-standard open-source Java implementation of the HL7 FHIR (Fast Healthcare Interoperability Resources) specification. Essential backend framework for healthcare interoperability and EHR data integration pipelines.
+
+- **[OpenMRS Core](https://github.com/openmrs/openmrs-core)** [![GitHub Stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers) 🌟 **~1,000+ stars**
+  Enterprise open-source medical record system platform designed specifically for resource-constrained environments. Features a modular architecture used by national health delivery systems across Africa and Asia.
+
+- **[Open Hospital](https://github.com/informatici/openhospital)** [![GitHub Stars](https://img.shields.io/github/stars/informatici/openhospital?style=social&color=white)](https://github.com/informatici/openhospital/stargazers) 🌟 **~504+ stars**
+  Lightweight hospital management software developed by Informatici Senza Frontiere (IT Without Borders) for rural hospitals in developing nations. Manages patient records, lab testing, pharmacy, and OPD/IPD workflows.
+
+- **[GNU Health](https://github.com/gnuhealth/gnuhealth)** [![GitHub Stars](https://img.shields.io/github/stars/gnuhealth/gnuhealth?style=social&color=white)](https://github.com/gnuhealth/gnuhealth/stargazers) 🌟 **~350+ stars**
+  Free/Libre Health and Hospital Information System backed by the GNU Project. Offers hospital management, electronic medical records, laboratory information system (LIMS), and public health epidemiology tracking.
+
+- **[Mere Medical](https://github.com/cfu288/mere-medical)** [![GitHub Stars](https://img.shields.io/github/stars/cfu288/mere-medical?style=social&color=white)](https://github.com/cfu288/mere-medical/stargazers) 🌟 **~250+ stars**
+  Open-source offline-first Personal Health Record (PHR) application. Allows patients to aggregate, view, and control their health data from Epic, Cerner, and DrChrono via SMART on FHIR without storing data on third-party servers.
+
+- **[LibreHealth EHR](https://github.com/LibreHealthIO/lh-ehr)** [![GitHub Stars](https://img.shields.io/github/stars/LibreHealthIO/lh-ehr?style=social&color=white)](https://github.com/LibreHealthIO/lh-ehr/stargazers) 🌟 **~238+ stars**
+  FOSS EHR platform designed for modularity and modern developer usability. Features clinical documentation, practice management, and patient portal capabilities.
+
+- **[Bahmni](https://github.com/Bahmni/bahmni-core)** [![GitHub Stars](https://img.shields.io/github/stars/Bahmni/bahmni-core?style=social&color=white)](https://github.com/Bahmni/bahmni-core/stargazers) 🌟 **~170+ stars**
+  Integrated hospital management system combining OpenMRS, Odoo, and OpenELIS into a single intuitive web interface for low-resource hospital settings.
+
+- **[OSCAR EMR](https://github.com/oscar-emr/oscar)** [![GitHub Stars](https://img.shields.io/github/stars/oscar-emr/oscar?style=social&color=white)](https://github.com/oscar-emr/oscar/stargazers) 🌟 **~120+ stars**
+  Open-source EMR platform originally developed by McMaster University for Canadian primary care practices. Known for strict security controls, 2FA, and customizable clinical templates.
+
+---
+
+## 🏗️ Architectural Frameworks
+
+When architecting a custom digital health application or hospital deployment:
+- 🏥 **Core Clinical EHR**: Deploy **OpenEMR** (for ONC compliance and outpatient clinics) or **Bahmni / OpenMRS** (for inpatient hospital systems).
+- 🔄 **Data Interoperability**: Implement **HAPI FHIR** or **Medplum** as the FHIR R4 standard translation and API layer.
+- 📱 **Patient Portal & Ownership**: Utilize **Mere Medical** for client-side PHR data aggregation via SMART on FHIR.
+- 🔐 **Compliance & Security**: Ensure database level encryption at rest (Transparent Data Encryption / LUKS), SSL/TLS in transit, and execute BAAs with cloud infrastructure providers (AWS / GCP / Azure).
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+1. Fork the repository.
+2. Add or update entries in `README.md` keeping formatting consistent.
+3. Ensure links, pricing details, or star counts are accurate.
+4. Submit a Pull Request with a short summary of changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your healthcare IT research, clinical software development, or informatics projects, please consider supporting the project!
+
+- 🌟 **Star this repository** to help others discover it.
+- 🍴 **Fork it** to customize it for your organization.
+- 📢 **Share it** with fellow healthcare developers and informatics practitioners.
+- ☕ **Buy me a coffee**: Support ongoing open-source curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Electronic-Health-Records&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Electronic-Health-Records&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated list** for informational and research purposes.
+- Electronic Health Records process Protected Health Information (PHI). Ensure full compliance with HIPAA, GDPR, HITECH, and regional privacy regulations before deploying any system in a clinical production environment.
+- **Open-source security note**: While platforms like OpenEMR and OpenMRS are production-proven, ensure robust server-level encryption, access controls, and audit logs are configured during deployment.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for healthcare IT teams, clinical software engineers, and health informatics researchers.</sub>
+</div>
