@@ -55,42 +55,42 @@ Below is a tabular overview of top enterprise SaaS electronic health record plat
 
 ## 🔓 Open-Source GitHub Projects
 
-The following list contains open-source EHR platforms, FHIR servers, and hospital management frameworks, sorted by **GitHub Star Count** in descending order.
+The following list contains open-source EHR platforms, FHIR servers, and hospital management frameworks, sorted by **GitHub Stars_Count** in descending order.
 
-- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) 🌟 **~19,000+ stars**
+- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) 🌟 **~19,000+ stars**
   Comprehensive open-source enterprise resource planning system with a dedicated Healthcare Module (patient appointments, clinical procedures, vital signs logging, lab test management, and medical billing). Written in Python/Frappe Framework.
 
-- **[HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend)** [![GitHub Stars](https://img.shields.io/github/stars/HospitalRun/hospitalrun-frontend?style=social&color=white)](https://github.com/HospitalRun/hospitalrun-frontend/stargazers) 🌟 **~6,900+ stars**
+- **[HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend)** [![GitHub_Stars](https://img.shields.io/github/stars/HospitalRun/hospitalrun-frontend?style=social&color=white)](https://github.com/HospitalRun/hospitalrun-frontend/stargazers) 🌟 **~6,900+ stars**
   User-friendly open-source EHR and hospital information system tailored for developing world healthcare facilities. Features an offline-first architecture for remote clinics with intermittent internet connectivity.
 
-- **[OpenEMR](https://github.com/openemr/openemr)** [![GitHub Stars](https://img.shields.io/github/stars/openemr/openemr?style=social&color=white)](https://github.com/openemr/openemr/stargazers) 🌟 **~5,500+ stars**
+- **[OpenEMR](https://github.com/openemr/openemr)** [![GitHub_Stars](https://img.shields.io/github/stars/openemr/openemr?style=social&color=white)](https://github.com/openemr/openemr/stargazers) 🌟 **~5,500+ stars**
   The most widely deployed open-source EHR and medical practice management platform. **ONC Certified Ambulatory EHR**. Includes patient charting, e-prescribing, ANSI X12 billing, patient portal, clinical decision support rules, and full FHIR R4 API support.
 
-- **[Medplum](https://github.com/medplum/medplum)** [![GitHub Stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers) 🌟 **~2,700+ stars**
+- **[Medplum](https://github.com/medplum/medplum)** [![GitHub_Stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers) 🌟 **~2,700+ stars**
   Modern developer-first head-less EHR and FHIR-native health data platform. Provides TypeScript SDKs, React component libraries, automated compliance tools, and secure patient data repositories for building custom medical apps.
 
-- **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)** [![GitHub Stars](https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white)](https://github.com/hapifhir/hapi-fhir/stargazers) 🌟 **~2,400+ stars**
+- **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)** [![GitHub_Stars](https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white)](https://github.com/hapifhir/hapi-fhir/stargazers) 🌟 **~2,400+ stars**
   The gold-standard open-source Java implementation of the HL7 FHIR (Fast Healthcare Interoperability Resources) specification. Essential backend framework for healthcare interoperability and EHR data integration pipelines.
 
-- **[OpenMRS Core](https://github.com/openmrs/openmrs-core)** [![GitHub Stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers) 🌟 **~1,000+ stars**
+- **[OpenMRS Core](https://github.com/openmrs/openmrs-core)** [![GitHub_Stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers) 🌟 **~1,000+ stars**
   Enterprise open-source medical record system platform designed specifically for resource-constrained environments. Features a modular architecture used by national health delivery systems across Africa and Asia.
 
-- **[Open Hospital](https://github.com/informatici/openhospital)** [![GitHub Stars](https://img.shields.io/github/stars/informatici/openhospital?style=social&color=white)](https://github.com/informatici/openhospital/stargazers) 🌟 **~504+ stars**
+- **[Open Hospital](https://github.com/informatici/openhospital)** [![GitHub_Stars](https://img.shields.io/github/stars/informatici/openhospital?style=social&color=white)](https://github.com/informatici/openhospital/stargazers) 🌟 **~504+ stars**
   Lightweight hospital management software developed by Informatici Senza Frontiere (IT Without Borders) for rural hospitals in developing nations. Manages patient records, lab testing, pharmacy, and OPD/IPD workflows.
 
-- **[GNU Health](https://github.com/gnuhealth/gnuhealth)** [![GitHub Stars](https://img.shields.io/github/stars/gnuhealth/gnuhealth?style=social&color=white)](https://github.com/gnuhealth/gnuhealth/stargazers) 🌟 **~350+ stars**
+- **[GNU Health](https://github.com/gnuhealth/gnuhealth)** [![GitHub_Stars](https://img.shields.io/github/stars/gnuhealth/gnuhealth?style=social&color=white)](https://github.com/gnuhealth/gnuhealth/stargazers) 🌟 **~350+ stars**
   Free/Libre Health and Hospital Information System backed by the GNU Project. Offers hospital management, electronic medical records, laboratory information system (LIMS), and public health epidemiology tracking.
 
-- **[Mere Medical](https://github.com/cfu288/mere-medical)** [![GitHub Stars](https://img.shields.io/github/stars/cfu288/mere-medical?style=social&color=white)](https://github.com/cfu288/mere-medical/stargazers) 🌟 **~250+ stars**
+- **[Mere Medical](https://github.com/cfu288/mere-medical)** [![GitHub_Stars](https://img.shields.io/github/stars/cfu288/mere-medical?style=social&color=white)](https://github.com/cfu288/mere-medical/stargazers) 🌟 **~250+ stars**
   Open-source offline-first Personal Health Record (PHR) application. Allows patients to aggregate, view, and control their health data from Epic, Cerner, and DrChrono via SMART on FHIR without storing data on third-party servers.
 
-- **[LibreHealth EHR](https://github.com/LibreHealthIO/lh-ehr)** [![GitHub Stars](https://img.shields.io/github/stars/LibreHealthIO/lh-ehr?style=social&color=white)](https://github.com/LibreHealthIO/lh-ehr/stargazers) 🌟 **~238+ stars**
+- **[LibreHealth EHR](https://github.com/LibreHealthIO/lh-ehr)** [![GitHub_Stars](https://img.shields.io/github/stars/LibreHealthIO/lh-ehr?style=social&color=white)](https://github.com/LibreHealthIO/lh-ehr/stargazers) 🌟 **~238+ stars**
   FOSS EHR platform designed for modularity and modern developer usability. Features clinical documentation, practice management, and patient portal capabilities.
 
-- **[Bahmni](https://github.com/Bahmni/bahmni-core)** [![GitHub Stars](https://img.shields.io/github/stars/Bahmni/bahmni-core?style=social&color=white)](https://github.com/Bahmni/bahmni-core/stargazers) 🌟 **~170+ stars**
+- **[Bahmni](https://github.com/Bahmni/bahmni-core)** [![GitHub_Stars](https://img.shields.io/github/stars/Bahmni/bahmni-core?style=social&color=white)](https://github.com/Bahmni/bahmni-core/stargazers) 🌟 **~170+ stars**
   Integrated hospital management system combining OpenMRS, Odoo, and OpenELIS into a single intuitive web interface for low-resource hospital settings.
 
-- **[OSCAR EMR](https://github.com/oscar-emr/oscar)** [![GitHub Stars](https://img.shields.io/github/stars/oscar-emr/oscar?style=social&color=white)](https://github.com/oscar-emr/oscar/stargazers) 🌟 **~120+ stars**
+- **[OSCAR EMR](https://github.com/oscar-emr/oscar)** [![GitHub_Stars](https://img.shields.io/github/stars/oscar-emr/oscar?style=social&color=white)](https://github.com/oscar-emr/oscar/stargazers) 🌟 **~120+ stars**
   Open-source EMR platform originally developed by McMaster University for Canadian primary care practices. Known for strict security controls, 2FA, and customizable clinical templates.
 
 ---
@@ -110,7 +110,7 @@ When architecting a custom digital health application or hospital deployment:
 Contributions are welcome! Please follow these simple guidelines:
 1. Fork the repository.
 2. Add or update entries in `README.md` keeping formatting consistent.
-3. Ensure links, pricing details, or star counts are accurate.
+3. Ensure links, pricing details, or Stars_Counts are accurate.
 4. Submit a Pull Request with a short summary of changes.
 
 ---
